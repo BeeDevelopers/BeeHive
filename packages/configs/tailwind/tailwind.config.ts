@@ -10,6 +10,11 @@ const config: Config = {
     extend: {
       colors: {
         beeblack: '#080808',
+        beeblue: '#0E5287',
+        beeyellow: '#E4C565',
+        beeorange: '#DAAE67',
+        beered: '#FB3B5C',
+        beewhite: '#EFF7FE',
       },
       screens: {
         xs: '480px',
