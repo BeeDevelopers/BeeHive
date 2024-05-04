@@ -1,8 +1,9 @@
-# BeeHive: Monorepo para BeeDevelopers
 
-Bienvenido a BeeHive, el monorepo oficial para BeeDevelopers. Este monorepo contiene varios proyectos, incluyendo DroneBee y WorkerBee, que es el frontend para el panel de administración y los usuarios/visitantes regulares del sitio web de BeeDevelopers, respectivamente.
+# 🐝 BeeHive
 
-## Pero, ¿Por qué llamarse así?
+Bienvenido a BeeHive, el monorepo frontend de BeeDevelopers. Este repositorio alberga varios proyectos clave como DroneBee y WorkerBee, que constituyen el frontend para el panel de administración y la interfaz de usuarios/visitantes del sitio web de BeeDevelopers, respectivamente.
+
+## 🌟 Inspiración del Nombre
 
 Los nombres de los componentes de nuestro proyecto, BeeHive, WorkerBee, DroneBee y QueenBee, están inspirados en la estructura social natural de las abejas. Cada término refleja el rol que desempeñan en nuestro sistema:
 
@@ -13,49 +14,53 @@ Los nombres de los componentes de nuestro proyecto, BeeHive, WorkerBee, DroneBee
 
 El uso de esta terminología no solo refleja la funcionalidad de cada componente, sino que también celebra nuestra identidad como parte de la Universidad de Guanajuato, cuya mascota oficial es una abeja.
 
-## Usando este monorepo
+## 📦 Contenido del Monorepo
 
-Para instalar todas las dependencias necesarias, ejecuta el siguiente comando:
+Este monorepo incluye los siguientes proyectos y paquetes:
+
+### Aplicaciones
+
+- **DroneBee**: Frontend para el panel de administración.
+- **WorkerBee**: Frontend para usuarios y visitantes.
+
+### Paquetes
+
+- @beehive/ui: una biblioteca de componentes React compartida por ambas aplicaciones, DroneBee y WorkerBee.
+- @beehive/eslint-config: configuraciones de eslint (incluye eslint-config-next y eslint-config-prettier).
+- @beehive/typescript-config: tsconfig.jsons utilizados en todo el monorepo.
+- @beehive/tailwind: carpeta para la configuración global de tailwind.
+
+Cada paquete/aplicación es 100% TypeScript.
+
+## 🛠️ Utilidades
+
+Herramientas configuradas en el monorepo:
+
+- **TypeScript**: Para la comprobación estática de tipos.
+- **ESLint**: Para el análisis estático de código.
+- **Prettier**: Para el formateo automático de código.
+- **TailwindCSS**: Para simplicidad en los estilos in-line dentro del JSX.
+
+## 🛠️ Configuración del Monorepo
+
+Para instalar todas las dependencias necesarias, ejecuta:
 
 ```sh
 bun install
 ```
 
-## ¿Qué contiene?
+## 🚀 Inicio Rápido
 
-Este monorepo incluye los siguientes paquetes/aplicaciones:
-
-## Aplicaciones y Paquetes
-
-- DroneBee: el frontend para el panel de administración del sitio web de BeeDevelopers.
-- WorkerBee: el frontend para los usuarios y visitantes regulares del sitio web de BeeDevelopers.
-
-- @beehive/ui: una biblioteca de componentes React compartida por ambas aplicaciones, DroneBee y WorkerBee.
-- @beehive/eslint-config: configuraciones de eslint (incluye eslint-config-next y eslint-config-prettier).
-- @beehive/typescript-config: tsconfig.jsons utilizados en todo el monorepo.
-
-Cada paquete/aplicación es 100% TypeScript.
-
-## Utilidades
-
-Este monorepo tiene algunas herramientas adicionales ya configuradas para ti:
-
-- TypeScript para la comprobación estática de tipos.
-- ESLint para el linting de código.
-- Prettier para el formateo de código.
-
-## Build
-
-Para construir todas las aplicaciones y paquetes, ejecuta el siguiente comando:
-
-```sh
-bun build
-```
-
-## Inicia
-
-Para desarrollar todas las aplicaciones y paquetes, ejecuta el siguiente comando:
+Para comenzar el desarrollo de todas las aplicaciones y paquetes:
 
 ```sh
 bun run dev
+```
+
+## 🏗️ Construcción
+
+Para construir todas las aplicaciones y paquetes:
+
+```sh
+bun build
 ```
