@@ -67,10 +67,10 @@ export function SideBar() {
   };
   return (
     <div className="flex flex-col w-80 bg-[#050505] h-screen gap-6 p-6 top-0 sticky z-50">
-      <div className="flex justify-start items-center gap-4">
+      <Link href="/" className="flex justify-start items-center gap-4">
         <Image src="/images/logo_icon.webp" alt="logo" width={50} height={50} />
         <Image src="/images/logo_text.webp" alt="logo" width={120} height={100} />
-      </div>
+      </Link>
       <div className="flex flex-col h-full">
         {sidebarButtons.map((button) => (
           <SidebarButton
