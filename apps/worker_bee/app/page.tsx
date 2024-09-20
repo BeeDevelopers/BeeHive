@@ -1,3 +1,9 @@
+import cn from "classNames"
+import TextGlobal from "../components/TextGlobal"
+
 export default function Page(): JSX.Element {
-  return <main className="flex min-h-screen flex-col items-center justify-between p-24">User view</main>;
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    </main>
+  )
 }
